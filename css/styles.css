@@ -43,6 +43,29 @@ ul {
 	list-style-type: none;
 }
 
+h1 {
+	font-family: var(--Lexend);
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-family: var(--Lexend);
+}
+
+h3 {
+	font-family: var(--Abel);
+	font-size: 1.3rem;
+}
+
+button.btn {
+	border: none;
+	border-radius: 2rem;
+	cursor: pointer;
+	font-family: var(--Livvic);
+	font-size: 1rem;
+	padding: 1rem 3rem;
+}
+
 /*-----x------Global Styles------x-----*/
 
 /*---------------Navbar-------------- */
@@ -120,6 +143,44 @@ ul {
 	color: #a1c4cf;
 }
 /*-------x-------Navbar-------x------ */
+
+/*---------------Main Content------------------*/
+
+/*----------------Site Title---------------*/
+
+main .site-title {
+	background: url('../assets//Background-image.png');
+	background-size: cover;
+	display: flex;
+	height: 110vh;
+	justify-content: center;
+}
+
+main .site-title h1, h3 {
+	margin: 0.3rem;
+}
+
+main .site-title .btn {
+	background: var(--sky);
+	margin: 1.7rem;
+}
+
+main .site-title .btn:hover {
+	background: transparent;
+	border: 1px solid var(--white);
+	color: var(--white);
+}
+
+main .site-title .site-background {
+	color: var(--white);
+	padding-top: 10rem;
+	text-align: center;
+}
+
+/*--------x-------Site Title-------x-------*/
+
+
+/*-------x-------Main Content--------x---------*/
 
 
 /* --------------Media Queries--------------*/
