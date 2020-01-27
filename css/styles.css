@@ -310,6 +310,28 @@ main .post-content .post-title a {
 	border-radius: 0;
 	padding: .7rem 1.5rem;
 }
+
+/*----------------Pagination---------------*/
+.site-content .pagination {
+	color: var(--text-gray);
+	justify-content: center;
+	margin: 3.5rem 0;
+}
+
+.site-content .pagination a {
+	border-radius: 2rem;
+	font-family: var(--Lexend);
+	margin: 0 .3rem;
+	padding: .6rem .9rem;
+}
+
+.site-content .pagination .pages {
+	background: var(--text-gray);
+	color: var(--white);
+}
+
+/*-------x--------Pagination--------x------*/
+
 /*-------x-------Site Content-------x------*/
 
 
