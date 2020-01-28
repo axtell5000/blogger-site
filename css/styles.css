@@ -37,6 +37,7 @@ a {
 .flex-row {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 ul {
@@ -340,7 +341,7 @@ main .post-content .post-title a {
 	font-family: var(--Livvic);   
 }
 
-.site-content > .sidebar .category-list .list-items {
+.site-content > .sidebar .category-list .list-item {
 	background: var(--sky);
 	border-radius: 3rem;
 	display: flex;
@@ -350,7 +351,7 @@ main .post-content .post-title a {
 	width: 70%;
 }
 
-.site-content > .sidebar .category-list .list-items a {
+.site-content > .sidebar .category-list .list-item a {
 	color:  black;
 }
 
@@ -375,15 +376,15 @@ main .post-content .post-title a {
 	font-size: 1rem;
 }
 
-.site-content .sidebar .newsletter{
+.site-content .sidebar .newletter{
 	padding-top: 10rem;
 }
 
-.site-content .sidebar .newsletter .form-element {
+.site-content .sidebar .newletter .form-element {
 	padding: .5rem 2rem;
 }
 
-.site-content .sidebar .newsletter .input-element {
+.site-content .sidebar .newletter .input-element {
 	font-family: var(--Lexend);
 	font-size: 1rem;	
 	height: 1.9rem;
@@ -391,7 +392,7 @@ main .post-content .post-title a {
 	width: 80%;
 }
 
-.site-content .sidebar .newsletter .form-btn {
+.site-content .sidebar .newletter .form-button {
 	background: var(--sky);
 	border-radius: 0;
 	margin: 1rem 0;
