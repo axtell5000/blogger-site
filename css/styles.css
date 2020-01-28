@@ -334,6 +334,84 @@ main .post-content .post-title a {
 
 /*-------x-------Site Content-------x------*/
 
+/* --------------- Sidebar ----------------------- */
+
+.site-content > .sidebar .category-list {
+	font-family: var(--Livvic);   
+}
+
+.site-content > .sidebar .category-list .list-items {
+	background: var(--sky);
+	border-radius: 3rem;
+	display: flex;
+	justify-content: space-between;
+	margin: .8rem 0;
+	padding: .4rem 1rem;	
+	width: 70%;
+}
+
+.site-content > .sidebar .category-list .list-items a {
+	color:  black;
+}
+
+.site-content .sidebar .popular-post .post-content {
+	padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-post h2{
+	padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info {
+	background: white !important;
+	border-radius: 0rem !important;
+	bottom: 0rem !important;
+	left: 1.5rem !important;
+	padding: .4rem .1rem !important;
+
+}
+
+.site-content .sidebar .popular-post .post-title a {
+	font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter{
+	padding-top: 10rem;
+}
+
+.site-content .sidebar .newsletter .form-element {
+	padding: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element {
+	font-family: var(--Lexend);
+	font-size: 1rem;	
+	height: 1.9rem;
+	padding: .3rem .5rem;
+	width: 80%;
+}
+
+.site-content .sidebar .newsletter .form-btn {
+	background: var(--sky);
+	border-radius: 0;
+	margin: 1rem 0;
+	padding: .8rem 32%;
+}
+
+.site-content .sidebar .popular-tags {
+	padding: 5rem 0;
+}
+
+.site-content .sidebar .popular-tags .tags .tag {
+	background: var(--sky);
+	border-radius: 3rem;
+	margin: .4rem .6rem;
+	padding: .4rem 1rem;
+}
+
+
+/* -------x------- Sidebar -----------x----------- */
+
 
 /*-------x-------Main Content--------x---------*/
 
@@ -351,3 +429,5 @@ main .post-content .post-title a {
 }
 
 /* ------x-------Media Queries-------x------*/
+
+
